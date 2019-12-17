@@ -34,8 +34,8 @@ public class BankData {
         InOrOut=new String[CustomN];
         deposit=new float[CustomN];
         m=new int[CustomN];
+        t=new int[CustomN];
         for (int i = 0; i < CustomN; i++) {
-            t=new int[CustomN];
             System.out.println("請輸入編號" + i + "顧客是要存款或提款(存款打1  提款打2)?");
             t[i] = Integer.parseInt(scanner.next());
             if(t[i]==1){
